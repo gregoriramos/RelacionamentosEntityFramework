@@ -64,7 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAL\ModelsContext.cs" />
+    <Compile Include="DAO\ModelsContext.cs" />
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\PessoaFisica.cs" />
     <Compile Include="Models\PessoaJuridica.cs" />
