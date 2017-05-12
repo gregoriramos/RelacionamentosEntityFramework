@@ -64,9 +64,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\CategoriaController.cs" />
-    <Compile Include="Controllers\ProdutoController.cs" />
-    <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="DAL\ModelsContext.cs" />
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\PessoaFisica.cs" />
@@ -93,15 +90,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Data\DbEntityFramework.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="App_Data\DbEntityFramework_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>DbEntityFramework.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
